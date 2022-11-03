@@ -1,5 +1,7 @@
 # BFS-in-Python
 
+
+````Python
 class Solution:
     # bfs on a connected, directed graph
     def bfsOfGraph(self, V, adj):
@@ -16,3 +18,4 @@ class Solution:
                     visited[nei] = 1
                     que.append(nei)
         return result
+````
